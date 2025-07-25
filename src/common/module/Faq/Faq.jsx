@@ -2,8 +2,6 @@ import Accordian from "@/common/component/element/Accordian";
 import H1 from "@/common/component/element/H1";
 import SectionText from "@/common/component/element/SectionText";
 import { Faqitem } from "@/common/constant/Faq";
-import React from "react";
-import { FaStarOfLife } from "react-icons/fa";
 
 export default function Faq() {
   return (
@@ -15,7 +13,7 @@ export default function Faq() {
             title="FAQs"
           />
           <H1
-            title="Frequently Ask"
+            title="Perguntas Frequentes"
             className="!text-2xl lg:!text-5xl w-full lg:w-[40%] font-semibold !text-center justify-center items-center"
             textColor="normal"
           />

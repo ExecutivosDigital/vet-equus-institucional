@@ -70,47 +70,43 @@ const Icon3 = (
     </svg>
   </>
 );
-import { HiCubeTransparent, HiCog,HiFingerPrint,HiMap,HiOutlineMap,HiReceiptTax } from "react-icons/hi";
+import { HiCog, HiCubeTransparent, HiFingerPrint } from "react-icons/hi";
 
 export const HowItsWorkItem = [
   {
-    title: "Explore the Fusion Gallery",
-    desc: "Begin your journey by exploring Fusion's curated gallery of NFT artworks",
+    title: " Dados abertos com leitura inteligente",
+    desc: "Tenha acesso a informações públicas, limpas e relevantes, sem dor de cabeça ou perda de tempo.",
     className: "w-full xl:w-[32%] h-[300px] items-start justify-start flex-col",
     icon: <HiCubeTransparent size={40} className="text-[#E8E8E8]" />,
   },
   {
-    title: "Connect with Creators",
-    desc: "Engage directly with NFT artists and creators on Fusion's platform. ",
+    title: "Acesso estruturado a documentos e proposições",
+    desc: "Busque proposições, acompanhe tramitações e entenda o contexto jurídico de cada documento — tudo organizado de forma visual e lógica. ",
     className: "w-full xl:w-[32%] h-[300px] items-start justify-start flex-col",
-    icon: <HiCog size={40} className="text-[#E8E8E8]"  />,
+    icon: <HiCog size={40} className="text-[#E8E8E8]" />,
   },
   {
-    title: "Bid or Buy with Confidence",
-    desc: "Once you've found the perfect NFT, take action with confidence. ",
+    title: "Chat jurídico-político instantâneo com o LegisAI",
+    desc: "Pergunte “Qual a situação da PL 120?” ou “Quem propôs tal alteração?” e receba respostas diretas, fundamentadas e fáceis de entender.",
     className: "w-full xl:w-[32%] h-[300px] items-start justify-start flex-col",
-    icon: <HiFingerPrint size={40} className="text-[#E8E8E8]"  />,
-
+    icon: <HiFingerPrint size={40} className="text-[#E8E8E8]" />,
   },
   // {
   //   title: "Secure Transactions",
   //   desc: "Rest assured knowing that all transactions on Fusion are secure and transparent",
   //   className: "w-full xl:w-[32%] h-[300px] items-start justify-start flex-col",
-  //   icon: <HiMap size={40} className="text-[#E8E8E8]"  />,
-
+  //   icon: <HiMap size={40} className="text-[#E8E8E8]" />,
   // },
   // {
   //   title: "Manage Your Collection",
   //   desc: "Effortlessly manage your growing NFT collection with Fusion's user-friendly tools. ",
   //   className: "w-full xl:w-[32%] h-[300px] items-start justify-start flex-col",
-  //   icon: <HiOutlineMap size={40} className="text-[#E8E8E8]"  />,
-
+  //   icon: <HiOutlineMap size={40} className="text-[#E8E8E8]" />,
   // },
   // {
   //   title: "Stay Updated with Trends",
   //   desc: "Stay ahead of the curve by keeping up with the latest trends and developments in the NFT market",
   //   className: "w-full xl:w-[32%] h-[300px] items-start justify-start flex-col",
-  //   icon: <HiReceiptTax size={40} className="text-[#E8E8E8]"  />,
-
+  //   icon: <HiReceiptTax size={40} className="text-[#E8E8E8]" />,
   // },
 ];

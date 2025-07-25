@@ -11,7 +11,7 @@ export const Faqitem = [
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "How Does Your SaaS Solution Enhance Efficiency?",
+    title: "O que é exatamente a LegisAI e como ela funciona?",
     desc: "Discover how our SaaS platform optimizes workflows and boosts overall operational efficiency, empowering your business to thrive in a dynamic landscape.",
   },
   {
@@ -21,7 +21,7 @@ export const Faqitem = [
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "What Security Measures Are in Place to Protect My Data?",
+    title: "Quais tipos de dados posso consultar na plataforma?",
     desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, repellat. Praesentium consectetur repellendus harum provident ad. Ducimus, ad consectetur? Distinctio inventore ad velit nihil debitis sapiente ipsum doloremque quaerat consectetur.",
   },
   {
@@ -31,7 +31,7 @@ export const Faqitem = [
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "Can I Customize the Platform to Fit My Unique Needs?",
+    title: "A LegisAI substitui um advogado ou consultor jurídico?",
     desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, repellat. Praesentium consectetur repellendus harum provident ad. Ducimus, ad consectetur? Distinctio inventore ad velit nihil debitis sapiente ipsum doloremque quaerat consectetur.",
   },
   {
@@ -41,7 +41,7 @@ export const Faqitem = [
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "How Does Your SaaS Platform Ensure Scalability?",
+    title: "Quanto custa usar a LegisAI?",
     desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, repellat. Praesentium consectetur repellendus harum provident ad. Ducimus, ad consectetur? Distinctio inventore ad velit nihil debitis sapiente ipsum doloremque quaerat consectetur.",
   },
   {
@@ -51,7 +51,7 @@ export const Faqitem = [
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "What Analytics Tools are Available for Informed Decision-Making?",
+    title: "Posso testar antes de contratar algum plano?",
     desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, repellat. Praesentium consectetur repellendus harum provident ad. Ducimus, ad consectetur? Distinctio inventore ad velit nihil debitis sapiente ipsum doloremque quaerat consectetur.",
   },
   // {

@@ -1,14 +1,10 @@
 "use client";
-import React from "react";
-import H1 from "./H1";
-import Image from "./Image";
-import { GoArrowUpRight } from "react-icons/go";
+import { useMobile } from "@/common/hooks/useMobile";
 import clsx from "clsx";
 import { motion } from "framer-motion";
-import { useMobile } from "@/common/hooks/useMobile";
 import ComponentTransition from "./ComponentTransition";
-import ButtonWarp from "./ButtonWarp";
-import Link from "next/link";
+import H1 from "./H1";
+import Image from "./Image";
 
 export default function CardEndOffer({ className }) {
   const isMobile = useMobile();
@@ -20,21 +16,21 @@ export default function CardEndOffer({ className }) {
       )}
     >
       <div className="w-full relative bg-gradient-to-b from-[#141414] to-[#141414] rounded-3xl border-[1px] border-[#262626] z-[9]  items-start h-[700px] lg:h-[500px] overflow-hidden lg:flex-row flex-col flex justify-center ">
-        
         <div className="lg:w-[150%] gap-5 px-4 lg:px-10 py-20 flex flex-col justify-start items-start">
           <H1
             className="!items-start !w-full !justify-start text-2xl lg:!text-4xl  font-semibold text-start "
-            title="Stay at the forefront of innovation with the freshest updates."
+            title="Teste agora no Lançamento Oficial e Tenha Benefícios"
             textColor="white"
           />
           <H1
             className=" !justify-start !text-base text-start lg:w-[90%]"
-            title="Encourage unconventional ideas while also having the flexibility to focus on cost-effective solutions."
+            title="Cadastre-se agora e tenha benefícios durante o lançamento beta.
+            Teste os principais recursos da LegisDados antes de todo mundo e receba atualizações exclusivas."
             textColor="white"
           />
           <div className="w-full relative gap-5 flex justify-start items-center">
             <div className=" relative">
-            <Image
+              <Image
                 className="w-[150px] h-auto "
                 src="/google-play.svg"
                 alt="Fusion"
@@ -44,7 +40,7 @@ export default function CardEndOffer({ className }) {
               />
             </div>
             <div className=" relative">
-            <Image
+              <Image
                 className="w-[150px] h-auto "
                 src="/app-store.svg"
                 alt="Fusion"
@@ -53,7 +49,7 @@ export default function CardEndOffer({ className }) {
                 priority
               />
             </div>
-          </div> 
+          </div>
         </div>
         <motion.div
           initial={{

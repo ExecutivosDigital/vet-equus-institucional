@@ -22,7 +22,7 @@ export default function Hero() {
               <div className="bg-primary rounded-full px-2">
                 <h1 className="text-white">Novo</h1>
               </div>
-              <h1 className="">Faça parte do LegisAI</h1>
+              <h1 className="">Faça parte do Legis Dados</h1>
               <div className="pr-3">
                 <RiArrowRightLine size={20} className="" />
               </div>
@@ -55,11 +55,11 @@ export default function Hero() {
 
         <div className="basis-[70%] flex w-full relative  justify-center items-center">
           <div className="w-full  h-[600px] overflow-hidden px-5 py-5 relative rounded-2xl">
-            <FusionApp />
+            {/* <FusionApp /> */}
             <div className="absolute inset-0 w-full z-[-9]">
               <Image
                 className="w-full h-[600px] "
-                src="https://images.unsplash.com/photo-1677336322384-2c62ab23c875?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="/hero-right.png"
                 alt="Fusion"
                 height={400}
                 width={400}

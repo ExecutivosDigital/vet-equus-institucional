@@ -1,7 +1,6 @@
 import ComponentTransition from "@/common/component/element/ComponentTransition";
 import Image from "@/common/component/element/Image";
 import clsx from "clsx";
-import React from "react";
 import { FaDigitalOcean } from "react-icons/fa";
 
 export default function CardVariantBig() {
@@ -20,14 +19,19 @@ export default function CardVariantBig() {
           </div>
           <div className="w-full">
             <h1 className="text-4xl font-semibold text-[#494949]">
-              Boost your financial savvy with our simple tools tailored for our
-              NFT offer
+              Hoje, acessar dados legislativos é um caos.
             </h1>
-            <p className="text-sm text-[#7A7A7A]">
-              Level up your financial know-how effortlessly with our specialized
-              tools, exclusively crafted to maximize your NFT investment
-              potential
-            </p>
+            <ul className="list-disc list-inside space-y-2">
+              <li>
+                Sistemas confusos, antigos e zero integração com inteligência
+              </li>
+              <li>
+                Para achar uma informação básica, você perde tempo e paciência
+              </li>
+              <li>
+                Não tem ninguém que possa te auxiliar, ajudar ou tirar dúvidas
+              </li>
+            </ul>
           </div>
           <div className="w-full h-full top-[200px] relative flex justify-center items-center">
             <Image
@@ -53,13 +57,18 @@ export default function CardVariantBig() {
           </div>
           <div className="w-full">
             <h1 className="text-4xl font-semibold text-[#494949]">
-              Boost your montly activity
+              Com a LegisDados, você consulta tudo em segundos.
             </h1>
-            <p className="text-sm text-[#7A7A7A]">
-              Level up your financial know-how effortlessly with our specialized
-              tools, exclusively crafted to maximize your NFT investment
-              potential
-            </p>
+            <ul className="list-disc list-inside space-y-2">
+              <li>Converse com IA treinada com dados legislativos.</li>
+              <li>
+                Descubra tramitações, proposições e outros de forma
+                simplificada.
+              </li>
+              <li>
+                Tudo sem depender de advogados ou horas de pesquisa manual.
+              </li>
+            </ul>
           </div>
           <div className="w-full h-full top-[100px] relative flex justify-center items-center">
             <Image
@@ -87,11 +96,17 @@ export default function CardVariantBig() {
           </div>
           <div className="w-full">
             <h1 className="text-4xl font-semibold text-[#494949]">
-              Streaming Your Statistics Sales
+              Feita para quem vive da política:
             </h1>
-            <p className="text-sm text-[#7A7A7A]">
-              Seamlessly connect all your existing apps.
-            </p>
+            <ul className=" space-y-2">
+              <li>✅ Assessores parlamentares que precisam de agilidade</li>
+              <li>✅ Deputados que querem decisões mais informadas</li>
+              <li>✅ Escritórios de advocacia com foco público</li>
+              <li>
+                ✅ Empresas e lobistas em busca de contratos com prefeituras
+              </li>
+              <li>✅ Cidadãos interessados em transparência legislativa</li>
+            </ul>
           </div>
         </div>
         <div className="w-full h-full  relative flex justify-center items-center">
@@ -126,10 +141,12 @@ export default function CardVariantBig() {
           </div>
           <div className="w-full">
             <h1 className="text-4xl font-semibold text-[#494949]">
-              Streaming Your Statistics seen by many countries
+              LegisAI não tem concorrentes diretos.
             </h1>
             <p className="text-sm text-[#7A7A7A]">
-              Seamlessly connect all your existing apps.
+              Enquanto outros oferecem serviço humano, nós oferecemos
+              inteligência artificial legislativa 24/7. 🔎 Pesquisa legislativa
+              em linguagem natural
             </p>
           </div>
         </div>

@@ -1,9 +1,13 @@
 "use client";
 import clsx from "clsx";
 import { motion } from "framer-motion";
-import React from "react";
 
-export default function H1({ title= '', className= '',textColor= 'normal',delay }) {
+export default function H1({
+  title = "",
+  className = "",
+  textColor = "normal",
+  delay,
+}) {
   return (
     <div className={`${className} overflow-hidden w-auto px-2 relative flex  `}>
       <motion.h1
@@ -16,9 +20,7 @@ export default function H1({ title= '', className= '',textColor= 'normal',delay 
           duration: 1.5,
         }}
         viewport={{ once: true }}
-        className={clsx(
-          ColorShadow(textColor),
-          ` relative`)}
+        className={clsx(ColorShadow(textColor), ` relative`)}
       >
         {title}
       </motion.h1>
@@ -26,15 +28,17 @@ export default function H1({ title= '', className= '',textColor= 'normal',delay 
   );
 }
 
-
 const ColorShadow = (textColor) => {
   const Color = {
-    colorShadow: "bg-clip-text text-transparent bg-gradient-to-br from-[#FFFFF7]  to-[#727267] ",
-    colorShadowWhite: "bg-clip-text text-transparent bg-gradient-to-br from-[#181818]  to-[#727267] ",
-    dark: 'text-[#181818]',
-    normal: 'text-[#494949]',
-    white: 'text-[#F2F2F2]',
-    opacity: 'text-[#696969]'
-  }
+    colorShadow:
+      "bg-clip-text text-transparent bg-gradient-to-br from-[#FFFFF7]  to-[#727267] ",
+    colorShadowWhite:
+      "bg-clip-text text-transparent bg-gradient-to-br from-[#181818]  to-[#727267] ",
+    dark: "text-[#181818]",
+    normal: "text-[#494949]",
+    white: "text-[#F2F2F2]",
+    opacity: "text-[#696969]",
+    primary: "text-primary",
+  };
   return Color[textColor] || Color.normal;
-}
+};
