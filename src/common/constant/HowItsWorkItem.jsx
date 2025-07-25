@@ -76,20 +76,20 @@ import { FiFile } from "react-icons/fi";
 
 export const HowItsWorkItem = [
   {
-    title: " Dados abertos com leitura inteligente",
-    desc: "Tenha acesso a informações públicas, limpas e relevantes, sem dor de cabeça ou perda de tempo.",
+    title: "Fichas clínicas com leitura inteligente",
+    desc: "Tenha acesso a dados organizados do animal, do proprietário, do manejo sanitário, dos custos e do histórico clínico. Tudo em um único lugar.",
     className: "w-full xl:w-[32%] h-[300px] items-start justify-start flex-col",
     icon: <BsGraphUp size={20} className="text-[#E8E8E8]" />,
   },
   {
-    title: "Acesso estruturado a documentos e proposições",
-    desc: "Busque proposições, acompanhe tramitações e entenda o contexto jurídico de cada documento — tudo organizado de forma visual e lógica. ",
+    title: "Gestão e organização sem esforço",
+    desc: "Controle de estoque completo, com separação entre o estoque móvel (volante) e o estoque geral, permitindo o rastreamento detalhado dos itens utilizados em cada atendimento. ",
     className: "w-full xl:w-[32%] h-[300px] items-start justify-start flex-col",
     icon: <FiFile size={20} className="text-[#E8E8E8]" />,
   },
   {
-    title: "Chat jurídico-político instantâneo com o LegisAI",
-    desc: "Pergunte “Qual a situação da PL 120?” ou “Quem propôs tal alteração?” e receba respostas diretas, fundamentadas e fáceis de entender.",
+    title: "Chat clínico e administrativo com IA",
+    desc: "Você pode fazer perguntas como “Qual foi o histórico de cólica desse cavalo?” ou “Qual medicamento mais usei nos últimos 30 dias?” e receber respostas claras, em poucos segundos.",
     className: "w-full xl:w-[32%] h-[300px] items-start justify-start flex-col",
     icon: <BiMessage size={20} className="text-[#E8E8E8]" />,
   },

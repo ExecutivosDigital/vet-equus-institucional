@@ -25,18 +25,12 @@ export default function CardVariantBig() {
           </div>
           <div className="w-full text-white">
             <h1 className="text-4xl font-semibold">
-              Hoje, acessar dados legislativos é um caos.
+              Gerenciar pacientes e rotina equina ainda é um desafio
             </h1>
             <ul className="list-disc list-inside space-y-2">
-              <li>
-                Sistemas confusos, antigos e zero integração com inteligência
-              </li>
-              <li>
-                Para achar uma informação básica, você perde tempo e paciência
-              </li>
-              <li>
-                Não tem ninguém que possa te auxiliar, ajudar ou tirar dúvidas
-              </li>
+              <li>Planilhas confusas e anotações espalhadas</li>
+              <li>Dificuldade para acessar o histórico clínico do animal</li>
+              <li>Falta de controle financeiro real do consultório</li>
             </ul>
           </div>
           <div className="w-full h-full top-[200px] relative flex justify-center items-center">
@@ -70,16 +64,13 @@ export default function CardVariantBig() {
           </div>
           <div className="w-full text-white">
             <h1 className="text-4xl font-semibold">
-              Com a LegisDados, você consulta tudo em segundos.
+              Com o Vetequus, você faz tudo com agilidade e clareza
             </h1>
             <ul className="list-disc list-inside space-y-2">
-              <li>Converse com IA treinada com dados legislativos.</li>
+              <li>Converse com uma IA treinada em medicina equina</li>
+              <li>Gere fichas clínicas completas com poucos cliques</li>
               <li>
-                Descubra tramitações, proposições e outros de forma
-                simplificada.
-              </li>
-              <li>
-                Tudo sem depender de advogados ou horas de pesquisa manual.
+                Controle financeiro detalhado por cliente, atendimento e período
               </li>
             </ul>
           </div>
@@ -116,16 +107,17 @@ export default function CardVariantBig() {
           </div>
           <div className="w-full">
             <h1 className="text-4xl font-semibold text-[#494949]">
-              Feita para quem vive da política:
+              Para Quem Vive a Rotina do Campo e da Clínica Equina
             </h1>
             <ul className="mt-4 space-y-4">
-              <li>✅ Assessores parlamentares que precisam de agilidade</li>
-              <li>✅ Deputados que querem decisões mais informadas</li>
+              <li>✅ Veterinários autônomos em campo ou clínicas</li>
+              <li>✅ Clínicas especializadas em equinos</li>
               <li>✅ Escritórios de advocacia com foco público</li>
+              <li>✅ Haras e centros de reprodução</li>
               <li>
-                ✅ Empresas e lobistas em busca de contratos com prefeituras
+                ✅ Profissionais que buscam eficiência, organização e
+                inteligência de dados
               </li>
-              <li>✅ Cidadãos interessados em transparência legislativa</li>
             </ul>
           </div>
         </div>
@@ -159,15 +151,14 @@ export default function CardVariantBig() {
           </div>
           <div className="w-full h-full flex flex-col justify-evenly text-white">
             <h1 className="text-4xl font-semibold">
-              LegisAI não tem concorrentes diretos.
+              Vetequus único no mercado.
             </h1>
             <p className="text-lg leading-loose">
-              Enquanto outros oferecem serviço humano, nós oferecemos
-              inteligência artificial legislativa 24/7. 🔎 Pesquisa legislativa
-              em linguagem natural
+              Enquanto outros sistemas são genéricos, nós criamos um ecossistema
+              inteligente 100% voltado para equinos.
             </p>
             <button className="bg-white text-primary w-max border border-transparent hover:border-white px-4 py-2 rounded-md font-semibold flex items-center gap-2 hover:bg-transparent hover:text-white transition duration-300">
-              <span>Testar LegisDados Agora</span>
+              <span>Testar Vetequus Agora</span>
               <BsArrowRight />
             </button>
           </div>

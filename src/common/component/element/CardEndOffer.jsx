@@ -25,13 +25,12 @@ export default function CardEndOffer({ className }) {
           />
           <H1
             className=" !justify-start !text-base text-start lg:w-[90%]"
-            title="Cadastre-se agora e tenha benefícios durante o lançamento beta.
-            Teste os principais recursos da LegisDados antes de todo mundo e receba atualizações exclusivas."
+            title="Participe da fase beta do EquiVet AI e tenha acesso antecipado às ferramentas que vão transformar sua clínica. Ganhe tempo, controle total e destaque profissional, tudo antes da concorrência."
             textColor="white"
           />
           <div className="w-full relative gap-5 flex justify-start items-center">
             <button className="bg-white text-primary w-max border border-transparent hover:border-white px-4 py-2 rounded-md font-semibold flex items-center gap-2 hover:bg-transparent hover:text-white transition duration-300">
-              <span>Testar LegisDados Agora</span>
+              <span>Testar Vetequus Agora</span>
               <BsArrowRight />
             </button>
           </div>

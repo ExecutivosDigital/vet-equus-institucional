@@ -22,7 +22,7 @@ export default function Hero() {
               <div className="bg-primary rounded-full px-2">
                 <h1 className="text-white">Novo</h1>
               </div>
-              <h1 className="">Faça parte do Legis Dados</h1>
+              <h1 className="">Faça parte do Vetequus</h1>
               <div className="pr-3">
                 <RiArrowRightLine size={20} className="" />
               </div>
@@ -30,22 +30,22 @@ export default function Hero() {
           </div>
           <div className="w-full mt-5 ">
             <HeroText
-              texts="O Poder Legislativo ao Seu Alcance, em Segundos."
+              texts="A Clínica Equina na palma da sua mão, em Segundos"
               className="text-white  leading-[0.95em] "
             />
           </div>
           <H1
             delay={0.2}
             className="mt-5 w-full lg:!w-[80%] justify-start !text-lg text-start"
-            title="Descubra trâmites, proposições e documentos da Câmara Legislativa com uma plataforma inteligente, rápida e feita para quem vive da informação política."
+            title="Controle fichas, agendamentos, estoques, finanças e diagnósticos com inteligência artificial. Tudo o que o veterinário equino precisa, em um só lugar."
             textColor="white"
           />
           <div className="w-full relative gap-5 flex justify-start items-center">
             <button className="border transition duration-300 hover:border-primary hover:bg-white hover:text-primary border-white rounded-md px-2 py-1 text-white font-semibold text-sm">
-              O que é o LegisDados?
+              O que é o Vetequus?
             </button>
             <button className="border flex items-center gap-2 transition duration-300 hover:border-white hover:bg-primary bg-white hover:text-white border-primary rounded-md px-2 py-1 text-primary font-semibold text-sm">
-              Testar LegisDados agora <BsArrowRight />
+              Testar Vetequus agora <BsArrowRight />
             </button>
           </div>
           <div className="w-full">

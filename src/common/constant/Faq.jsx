@@ -11,7 +11,7 @@ export const Faqitem = [
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "O que é exatamente a LegisAI e como ela funciona?",
+    title: "O que é o Vetequus e como ele funciona?",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
@@ -21,7 +21,7 @@ export const Faqitem = [
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "Quais tipos de dados posso consultar na plataforma?",
+    title: "O sistema serve para clínica, campo ?",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
@@ -31,7 +31,8 @@ export const Faqitem = [
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "A LegisAI substitui um advogado ou consultor jurídico?",
+    title:
+      "Consigo cadastrar fichas de animais e controlar estoque ao mesmo tempo?",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
@@ -41,7 +42,7 @@ export const Faqitem = [
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "Quanto custa usar a LegisAI?",
+    title: "Quanto custa utilizar o sistema Vetequus ?",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
