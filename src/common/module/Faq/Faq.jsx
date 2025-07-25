@@ -10,7 +10,7 @@ export default function Faq() {
         <div className="w-full flex flex-col justify-center items-center">
           <SectionText
             // icon={<FaStarOfLife size={20} className="" />}
-            title="FAQs"
+            title="Perguntas e Respostas"
           />
           <H1
             title="Perguntas Frequentes"

@@ -44,7 +44,7 @@ const Navbar = () => {
             className="group relative w-auto flex justify-start items-center gap-2"
           >
             <Image
-              src="/logo.png"
+              src="/logo/logo.png"
               alt=""
               width={500}
               height={200}

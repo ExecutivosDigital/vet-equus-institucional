@@ -70,26 +70,28 @@ const Icon3 = (
     </svg>
   </>
 );
-import { HiCog, HiCubeTransparent, HiFingerPrint } from "react-icons/hi";
+import { BiMessage } from "react-icons/bi";
+import { BsGraphUp } from "react-icons/bs";
+import { FiFile } from "react-icons/fi";
 
 export const HowItsWorkItem = [
   {
     title: " Dados abertos com leitura inteligente",
     desc: "Tenha acesso a informações públicas, limpas e relevantes, sem dor de cabeça ou perda de tempo.",
     className: "w-full xl:w-[32%] h-[300px] items-start justify-start flex-col",
-    icon: <HiCubeTransparent size={40} className="text-[#E8E8E8]" />,
+    icon: <BsGraphUp size={20} className="text-[#E8E8E8]" />,
   },
   {
     title: "Acesso estruturado a documentos e proposições",
     desc: "Busque proposições, acompanhe tramitações e entenda o contexto jurídico de cada documento — tudo organizado de forma visual e lógica. ",
     className: "w-full xl:w-[32%] h-[300px] items-start justify-start flex-col",
-    icon: <HiCog size={40} className="text-[#E8E8E8]" />,
+    icon: <FiFile size={20} className="text-[#E8E8E8]" />,
   },
   {
     title: "Chat jurídico-político instantâneo com o LegisAI",
     desc: "Pergunte “Qual a situação da PL 120?” ou “Quem propôs tal alteração?” e receba respostas diretas, fundamentadas e fáceis de entender.",
     className: "w-full xl:w-[32%] h-[300px] items-start justify-start flex-col",
-    icon: <HiFingerPrint size={40} className="text-[#E8E8E8]" />,
+    icon: <BiMessage size={20} className="text-[#E8E8E8]" />,
   },
   // {
   //   title: "Secure Transactions",

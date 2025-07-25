@@ -1,9 +1,9 @@
 "use client";
+import ComponentTransition from "@/common/component/element/ComponentTransition";
 import clsx from "clsx";
 import { motion } from "framer-motion";
-import React, { useState } from "react";
+import { useState } from "react";
 import { GoPlus } from "react-icons/go";
-import ComponentTransition from "@/common/component/element/ComponentTransition";
 
 export default function Accordian({ Content, className }) {
   const [openStates, setOpenStates] = useState(
@@ -23,7 +23,10 @@ export default function Accordian({ Content, className }) {
       {Content.map((item, index) => (
         <div
           key={index}
-          className={clsx(className,`flex overflow-hidden flex-col mt-10 relative pb-5`)}
+          className={clsx(
+            className,
+            `flex overflow-hidden flex-col mt-10 relative pb-5`
+          )}
         >
           <motion.div
             initial={{ x: "-100%" }}
@@ -35,23 +38,28 @@ export default function Accordian({ Content, className }) {
               delay: index * 0.1,
             }}
             viewport={{ once: true }}
-            className="border-b-[1px] border-neutral-400 top-0 inset-0  absolute "
+            className="border-b-[1px] border-primary top-0 inset-0  absolute "
           ></motion.div>
-          <button onClick={() => handleClick(index)} className="w-full relative">
+          <button
+            onClick={() => handleClick(index)}
+            className="w-full relative"
+          >
             <div
               className={clsx("flex group h-auto items-center gap-5", {
                 "cursor-pointer": !openStates[index],
               })}
             >
               <div className="relative flex justify-start w-full">
-              <h1 className="md:text-xl text-start text-base font-semibold">{item.title}</h1>
+                <h1 className="md:text-xl text-start text-base font-semibold">
+                  {item.title}
+                </h1>
               </div>
               <div className="relative flex justify-end w-full right-0">
                 <GoPlus
                   size={30}
                   className={`${
                     openStates[index] ? "rotate-45" : "rotate-0"
-                  } transition-all duration-300`}
+                  } transition-all text-primary duration-300`}
                 />
               </div>
             </div>

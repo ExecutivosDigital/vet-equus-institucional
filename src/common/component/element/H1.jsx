@@ -20,7 +20,7 @@ export default function H1({
           duration: 1.5,
         }}
         viewport={{ once: true }}
-        className={clsx(ColorShadow(textColor), ` relative`)}
+        className={clsx(ColorShadow(textColor), ` relative pb-2`)}
       >
         {title}
       </motion.h1>

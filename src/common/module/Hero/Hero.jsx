@@ -16,7 +16,7 @@ export default function Hero() {
   return (
     <div className="h-auto max-w-[1500px]  flex flex-col justify-start px-5 lg:px-10  w-full mt-20 overflow-hidden ">
       <div className="w-full gap-5 flex lg:flex-row flex-col justify-center mt-5">
-        <div className="w-full  z-[9] flex-col py-5 h-auto flex bg-[url('/hero-bg.png')] bg-cover bg-no-repeat bg-center rounded-2xl px-5">
+        <div className="w-full  z-[9] flex-col justify-evenly py-5 h-auto flex bg-[url('/static/hero-bg.png')] bg-cover bg-no-repeat bg-center rounded-2xl px-5">
           <div className="w-full flex justify-start  ">
             <div className="bg-white text-primary rounded-full px-1 py-1 flex gap-1 items-center">
               <div className="bg-primary rounded-full px-2">
@@ -59,7 +59,7 @@ export default function Hero() {
             <div className="absolute inset-0 w-full z-[-9]">
               <Image
                 className="w-full h-[600px] "
-                src="/hero-right.png"
+                src="/static/hero-right.png"
                 alt="Fusion"
                 height={400}
                 width={400}

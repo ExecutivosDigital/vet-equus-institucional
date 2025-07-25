@@ -1,5 +1,4 @@
 import Image from "@/common/component/element/Image";
-import React from "react";
 import { CiStar } from "react-icons/ci";
 
 export default function Ratings() {

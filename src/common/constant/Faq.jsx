@@ -12,7 +12,7 @@ export const Faqitem = [
       />
     ),
     title: "O que é exatamente a LegisAI e como ela funciona?",
-    desc: "Discover how our SaaS platform optimizes workflows and boosts overall operational efficiency, empowering your business to thrive in a dynamic landscape.",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
     icon: (
@@ -22,7 +22,7 @@ export const Faqitem = [
       />
     ),
     title: "Quais tipos de dados posso consultar na plataforma?",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, repellat. Praesentium consectetur repellendus harum provident ad. Ducimus, ad consectetur? Distinctio inventore ad velit nihil debitis sapiente ipsum doloremque quaerat consectetur.",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
     icon: (
@@ -32,7 +32,7 @@ export const Faqitem = [
       />
     ),
     title: "A LegisAI substitui um advogado ou consultor jurídico?",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, repellat. Praesentium consectetur repellendus harum provident ad. Ducimus, ad consectetur? Distinctio inventore ad velit nihil debitis sapiente ipsum doloremque quaerat consectetur.",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
     icon: (
@@ -42,7 +42,7 @@ export const Faqitem = [
       />
     ),
     title: "Quanto custa usar a LegisAI?",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, repellat. Praesentium consectetur repellendus harum provident ad. Ducimus, ad consectetur? Distinctio inventore ad velit nihil debitis sapiente ipsum doloremque quaerat consectetur.",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
     icon: (
@@ -52,7 +52,7 @@ export const Faqitem = [
       />
     ),
     title: "Posso testar antes de contratar algum plano?",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, repellat. Praesentium consectetur repellendus harum provident ad. Ducimus, ad consectetur? Distinctio inventore ad velit nihil debitis sapiente ipsum doloremque quaerat consectetur.",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   // {
   //   icon: (

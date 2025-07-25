@@ -2,6 +2,7 @@
 import { useMobile } from "@/common/hooks/useMobile";
 import clsx from "clsx";
 import { motion } from "framer-motion";
+import { BsArrowRight } from "react-icons/bs";
 import ComponentTransition from "./ComponentTransition";
 import H1 from "./H1";
 import Image from "./Image";
@@ -15,7 +16,7 @@ export default function CardEndOffer({ className }) {
         `h-auto max-w-[1500px] flex flex-col py-10 px-5 lg:px-10  w-full  overflow-hidden `
       )}
     >
-      <div className="w-full relative bg-gradient-to-b from-[#141414] to-[#141414] rounded-3xl border-[1px] border-[#262626] z-[9]  items-start h-[700px] lg:h-[500px] overflow-hidden lg:flex-row flex-col flex justify-center ">
+      <div className="w-full relative bg-gradient-to-b from-primary to-[#283620] rounded-3xl border-[1px] border-[#262626] z-[9]  items-start h-[700px] lg:h-[500px] overflow-hidden lg:flex-row flex-col flex justify-center ">
         <div className="lg:w-[150%] gap-5 px-4 lg:px-10 py-20 flex flex-col justify-start items-start">
           <H1
             className="!items-start !w-full !justify-start text-2xl lg:!text-4xl  font-semibold text-start "
@@ -29,26 +30,10 @@ export default function CardEndOffer({ className }) {
             textColor="white"
           />
           <div className="w-full relative gap-5 flex justify-start items-center">
-            <div className=" relative">
-              <Image
-                className="w-[150px] h-auto "
-                src="/google-play.svg"
-                alt="Fusion"
-                height={200}
-                width={200}
-                priority
-              />
-            </div>
-            <div className=" relative">
-              <Image
-                className="w-[150px] h-auto "
-                src="/app-store.svg"
-                alt="Fusion"
-                height={200}
-                width={200}
-                priority
-              />
-            </div>
+            <button className="bg-white text-primary w-max border border-transparent hover:border-white px-4 py-2 rounded-md font-semibold flex items-center gap-2 hover:bg-transparent hover:text-white transition duration-300">
+              <span>Testar LegisDados Agora</span>
+              <BsArrowRight />
+            </button>
           </div>
         </div>
         <motion.div
@@ -68,10 +53,11 @@ export default function CardEndOffer({ className }) {
         >
           <Image
             className="w-full lg:w-[90%] h-auto object-cover"
-            src="/FusionApp.png"
+            src="/static/phone-3.png"
             alt="Fusion"
-            height={400}
-            width={400}
+            height={2000}
+            width={750}
+            quality={100}
             priority
           />
         </motion.div>
@@ -92,10 +78,11 @@ export default function CardEndOffer({ className }) {
         >
           <Image
             className="w-full lg:w-[90%] h-auto object-cover"
-            src="/FUSION.png"
+            src="/static/phone-4.png"
             alt="Fusion"
-            height={400}
-            width={400}
+            height={2000}
+            width={750}
+            quality={100}
             priority
           />
         </motion.div>

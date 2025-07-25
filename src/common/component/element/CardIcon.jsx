@@ -1,5 +1,4 @@
 import clsx from "clsx";
-import React from "react";
 import ComponentTransition from "./ComponentTransition";
 
 export default function CardIcon({ item }) {
@@ -11,18 +10,20 @@ export default function CardIcon({ item }) {
           key={index}
           className={clsx(
             items.className,
-            ` flex   gap-5 p-10 bg-[#E8E8E8] rounded-3xl  overflow-hidden`
+            ` flex flex-col justify-evenly border-primary gap-5 p-10 bg-white rounded-3xl border overflow-hidden`
           )}
         >
-          {items.icon && (
-            <div className="bg-[#495464] p-2 rounded-xl">{items.icon}</div>
-          )}
-          <div className="w-full">
+          <div className="w-full flex  gap-1">
+            {items.icon && (
+              <div className="bg-primary h-10 min-h-10 min-w-10 max-w-10 max-h-10 flex items-center justify-center w-10 p-2 rounded-xl">
+                {items.icon}
+              </div>
+            )}
             <h1 className="text-3xl text-[#181818]  font-semibold pb-4">
               {items.title}
             </h1>
-            <p className="text-sm text-[#7A7A7A]">{items.desc}</p>
           </div>
+          <p className="text-sm text-primary">{items.desc}</p>
         </ComponentTransition>
       ))}
     </div>

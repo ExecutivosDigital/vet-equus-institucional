@@ -1,12 +1,10 @@
-import { NavigationItem } from "@/common/constant/NavigationItem";
-import React from "react";
-import LinkSlideHover from "./LinkSlideHover";
 import {
   FollowusItem,
   InformationItem,
   ResourcesItem,
 } from "@/common/constant/FooterItem";
-import Logo from "../navbar/Logo";
+import { NavigationItem } from "@/common/constant/NavigationItem";
+import LinkSlideHover from "./LinkSlideHover";
 
 export default function Footer() {
   return (
@@ -16,9 +14,7 @@ export default function Footer() {
           <div className="lg:flex">
             <div className="w-full -mx-6 lg:w-2/5 flex px-6 lg:justify-center ">
               {/* <Logo h={60} w={60} /> */}
-              <h1 className="text-xl font-semibold">
-                Fusion V2
-              </h1>
+              <h1 className="text-xl font-semibold">Fusion V2</h1>
             </div>
 
             <div className="mt-6 lg:mt-0 w-full ">
