@@ -33,15 +33,15 @@ export default function PricingCard({ item }) {
             <h1>{items.plan}</h1>
             {Price === true ? (
               <h1 className="text-3xl py-5">
-                {items.yearly} /<span className="!text-2xl">mo</span>{" "}
+                {items.yearly} /<span className="!text-2xl">mês</span>{" "}
               </h1>
             ) : (
               <h1 className="text-3xl py-5">
-                {items.price} /<span className="!text-2xl">mo</span>{" "}
+                {items.price} /<span className="!text-2xl">mês</span>{" "}
               </h1>
             )}
             {items.features.map((item, index) => (
-              <div className="w-full py-2 flex items-center gap-2">
+              <div key={index} className="w-full py-2 flex items-center gap-2">
                 {item.active && (
                   <CiCircleCheck size={30} className={`text-primary`} />
                 )}
@@ -54,7 +54,7 @@ export default function PricingCard({ item }) {
 
             <div className="w-full py-5">
               <ButtonSpot
-                title="Subscribe"
+                title="Escolher"
                 className={`${index === 2 ? `bg-black` : `bg-white`} !py-3`}
               />
             </div>
