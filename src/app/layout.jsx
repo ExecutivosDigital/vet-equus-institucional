@@ -1,3 +1,4 @@
+import Footer from "@/common/component/element/Footer";
 import { LenisProvider } from "@/common/component/element/LenisProvider";
 import Navbar from "@/common/component/navbar/Navbar";
 import { Plus_Jakarta_Sans } from "next/font/google";
@@ -22,9 +23,9 @@ export default function RootLayout({ children }) {
           </div>
           {children}
 
-          {/* <div className="w-full flex justify-center items-center">
+          <div className="w-full flex justify-center items-center">
             <Footer />
-          </div> */}
+          </div>
         </LenisProvider>
       </body>
     </html>
