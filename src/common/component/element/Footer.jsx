@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="h-auto max-w-[1500px] relative flex flex-col justify-center px-5 lg:px-10 py-10 w-full">
       <footer>
         <div className="container mx-auto">
-          <div className="lg:flex w-full justify-center gap-4">
+          <div className="flex w-full items-center justify-center gap-4">
             <Image
               src="/logo/logo.png"
               alt=""

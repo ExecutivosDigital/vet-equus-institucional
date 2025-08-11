@@ -11,7 +11,7 @@ export default function Feature() {
         <div className="w-full flex flex-col justify-center items-center">
           <SectionText
             // icon={<FaStarOfLife size={20} className="" />}
-            title="Inovação na Política"
+            title="Inovação na Medicina Equina"
           />
           <H1
             title="Descubra o Impacto da nossa Inteligência Artificial"

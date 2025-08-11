@@ -58,11 +58,11 @@ export default function Hero() {
             {/* <FusionApp /> */}
             <div className="absolute inset-0 w-full z-[-9]">
               <Image
-                className="w-full h-[600px] "
+                className="w-max object-cover h-[600px] "
                 src="/static/hero-right.png"
                 alt="Fusion"
-                height={400}
-                width={400}
+                height={1500}
+                width={1500}
                 priority
               />
             </div>

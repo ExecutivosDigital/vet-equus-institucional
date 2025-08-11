@@ -10,7 +10,7 @@ export default function CardIcon({ item }) {
           key={index}
           className={clsx(
             items.className,
-            ` flex flex-col justify-evenly border-primary gap-5 p-10 bg-white rounded-3xl border overflow-hidden`
+            ` flex flex-col justify-evenly border-primary gap-5 p-4 2xl:p-10 bg-white rounded-3xl border overflow-hidden`
           )}
         >
           <div className="w-full flex  gap-1">

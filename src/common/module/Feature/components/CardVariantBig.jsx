@@ -90,11 +90,11 @@ export default function CardVariantBig() {
 
       <ComponentTransition
         className={clsx(
-          `w-full h-auto flex lg:flex-row flex-col justify-start items-start gap-5 p-10 bg-[url('/static/inside.png')] bg-cover bg-no-repeat bg-center bg-opacity-10 to-80% rounded-3xl  overflow-hidden`
+          `w-full h-auto flex lg:flex-row flex-col items-center gap-5 p-10 bg-[url('/static/inside.png')] bg-cover bg-no-repeat bg-center bg-opacity-10 to-80% rounded-3xl  overflow-hidden`
         )}
       >
-        <div className="w-full flex flex-col gap-5">
-          <div className=" w-full flex justify-start relative">
+        <div className="w-full h-full flex flex-col gap-5">
+          <div className=" w-full gap-2 flex justify-start relative">
             <div className="bg-[#283620] w-10 flex items-center justify-center h-10 p-1 rounded-xl">
               <Image
                 src="/logo/icon-white.png"
@@ -109,21 +109,23 @@ export default function CardVariantBig() {
             <h1 className="text-4xl font-semibold text-[#494949]">
               Para Quem Vive a Rotina do Campo e da Clínica Equina
             </h1>
-            <ul className="mt-4 space-y-4">
-              <li>✅ Veterinários autônomos em campo ou clínicas</li>
-              <li>✅ Clínicas especializadas em equinos</li>
-              <li>✅ Escritórios de advocacia com foco público</li>
-              <li>✅ Haras e centros de reprodução</li>
-              <li>
-                ✅ Profissionais que buscam eficiência, organização e
-                inteligência de dados
-              </li>
-            </ul>
+            <div className="w-full">
+              <ul className="mt-4 space-y-4">
+                <li>✅ Veterinários autônomos em campo ou clínicas</li>
+                <li>✅ Clínicas especializadas em equinos</li>
+                <li>✅ Escritórios de advocacia com foco público</li>
+                <li>✅ Haras e centros de reprodução</li>
+                <li>
+                  ✅ Profissionais que buscam eficiência, organização e
+                  inteligência de dados
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div className="w-full h-full  relative flex justify-center items-center">
+        <div className="w-full h-full relative flex justify-center items-center">
           <Image
-            className="w-full h-auto object-cover "
+            className="w-full h-full object-cover "
             src="/static/tablet-2.png"
             alt="Image"
             height={1500}

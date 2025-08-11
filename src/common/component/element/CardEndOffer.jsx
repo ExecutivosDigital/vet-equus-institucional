@@ -48,7 +48,7 @@ export default function CardEndOffer({ className }) {
             duration: 1.5,
           }}
           viewport={{ once: true }}
-          className="flex w-full z-[9]  overflow-hidden justify-end items-start self-end relative bottom-0 left-[30px] lg:left-[190px]"
+          className="flex w-full z-[9] overflow-hidden justify-end items-start relative lg:top-[60px] left-[30px] lg:left-[190px]"
         >
           <Image
             className="w-full lg:w-[90%] h-auto object-cover"
@@ -73,7 +73,7 @@ export default function CardEndOffer({ className }) {
             duration: 1.5,
           }}
           viewport={{ once: true }}
-          className="hidden lg:flex w-full overflow-hidden self-end justify-end items-start relative lg:-bottom-40 left-[30px] lg:left-[90px]"
+          className="hidden lg:flex w-full overflow-hidden  justify-end items-start relative lg:top-[150px] left-[30px] lg:left-[90px]"
         >
           <Image
             className="w-full lg:w-[90%] h-auto object-cover"
