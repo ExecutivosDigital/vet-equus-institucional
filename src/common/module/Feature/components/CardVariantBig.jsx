@@ -15,7 +15,7 @@ export default function CardVariantBig() {
           <div className=" w-full flex justify-start relative">
             <div className="bg-white w-10 h-10 flex items-center justify-center p-1 rounded-xl">
               <Image
-                src="/logo/camara.png"
+                src="/logo/icon.png"
                 alt=""
                 width={200}
                 height={200}
@@ -97,7 +97,7 @@ export default function CardVariantBig() {
           <div className=" w-full flex justify-start relative">
             <div className="bg-[#283620] w-10 flex items-center justify-center h-10 p-1 rounded-xl">
               <Image
-                src="/logo/icon.png"
+                src="/logo/icon-white.png"
                 alt=""
                 width={200}
                 height={200}
@@ -124,7 +124,7 @@ export default function CardVariantBig() {
         <div className="w-full h-full  relative flex justify-center items-center">
           <Image
             className="w-full h-auto object-cover "
-            src="/static/tablet-1.png"
+            src="/static/tablet-2.png"
             alt="Image"
             height={1500}
             width={1500}
@@ -163,13 +163,13 @@ export default function CardVariantBig() {
             </button>
           </div>
         </div>
-        <div className="w-full h-full relative flex justify-center items-center">
+        <div className="w-full h-[375px] relative flex justify-center items-center">
           <Image
-            className="w-full h-auto object-cover "
-            src="/static/macbook-1.png"
+            className="max-h-full object-cover "
+            src="/static/macbook-2.png"
             alt="Image"
-            height={400}
-            width={400}
+            height={600}
+            width={600}
             priority
           />
         </div>

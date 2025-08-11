@@ -46,10 +46,10 @@ const Navbar = () => {
             <Image
               src="/logo/logo.png"
               alt=""
-              width={500}
-              height={200}
+              width={1000}
+              height={400}
               quality={100}
-              className="h-10 w-max object-contain"
+              className="h-14 w-max object-contain"
             />
           </Link>
         </div>

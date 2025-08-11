@@ -3,14 +3,10 @@ const size = 30;
 export const NavigationItem = [
   {
     src: "/about",
-    title: "Sobre",
+    title: "Home",
   },
   {
     src: "/pricing",
     title: "Preço",
-  },
-  {
-    src: "#",
-    title: "Suporte",
   },
 ];
