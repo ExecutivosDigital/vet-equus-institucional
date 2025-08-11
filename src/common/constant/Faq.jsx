@@ -11,7 +11,7 @@ export const Faqitem = [
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "O que é o Vetequus e como ele funciona?",
+    title: "O que é a Equinology e como ela funciona?",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
@@ -42,7 +42,7 @@ export const Faqitem = [
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "Quanto custa utilizar o sistema Vetequus ?",
+    title: "Quanto custa utilizar o sistema Equinology ?",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
@@ -105,7 +105,7 @@ export const PricingFaqitem = [
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "O que é o Vetequus e como ele funciona?",
+    title: "O que é a Equinology e como ela funciona?",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
@@ -136,7 +136,7 @@ export const PricingFaqitem = [
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "Quanto custa utilizar o sistema Vetequus ? ",
+    title: "Quanto custa utilizar o sistema Equinology ? ",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {

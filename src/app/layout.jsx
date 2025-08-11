@@ -7,7 +7,7 @@ import "../common/style/globals.css";
 const plusj = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Vetequus",
+  title: "Equinology",
   icons: {
     icon: "/icon.png",
   },

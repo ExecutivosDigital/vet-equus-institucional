@@ -22,7 +22,7 @@ export default function Hero() {
               <div className="bg-primary rounded-full px-2">
                 <h1 className="text-white">Novo</h1>
               </div>
-              <h1 className="">Faça parte do Vetequus</h1>
+              <h1 className="">Faça parte da Equinology</h1>
               <div className="pr-3">
                 <RiArrowRightLine size={20} className="" />
               </div>
@@ -42,10 +42,10 @@ export default function Hero() {
           />
           <div className="w-full relative gap-5 flex justify-start items-center">
             <button className="border transition duration-300 hover:border-primary hover:bg-white hover:text-primary border-white rounded-md px-2 py-1 text-white font-semibold text-sm">
-              O que é o Vetequus?
+              O que é a Equinology?
             </button>
             <button className="border flex items-center gap-2 transition duration-300 hover:border-white hover:bg-primary bg-white hover:text-white border-primary rounded-md px-2 py-1 text-primary font-semibold text-sm">
-              Testar Vetequus agora <BsArrowRight />
+              Testar Equinology agora <BsArrowRight />
             </button>
           </div>
           <div className="w-full">

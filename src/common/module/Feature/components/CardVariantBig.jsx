@@ -64,7 +64,7 @@ export default function CardVariantBig() {
           </div>
           <div className="w-full text-white">
             <h1 className="text-4xl font-semibold">
-              Com o Vetequus, você faz tudo com agilidade e clareza
+              Com a Equinology, você faz tudo com agilidade e clareza
             </h1>
             <ul className="list-disc list-inside space-y-2">
               <li>Converse com uma IA treinada em medicina equina</li>
@@ -153,14 +153,14 @@ export default function CardVariantBig() {
           </div>
           <div className="w-full h-full flex flex-col justify-evenly text-white">
             <h1 className="text-4xl font-semibold">
-              Vetequus único no mercado.
+              Equinology única no mercado.
             </h1>
             <p className="text-lg leading-loose">
               Enquanto outros sistemas são genéricos, nós criamos um ecossistema
               inteligente 100% voltado para equinos.
             </p>
             <button className="bg-white text-primary w-max border border-transparent hover:border-white px-4 py-2 rounded-md font-semibold flex items-center gap-2 hover:bg-transparent hover:text-white transition duration-300">
-              <span>Testar Vetequus Agora</span>
+              <span>Testar Equinology Agora</span>
               <BsArrowRight />
             </button>
           </div>

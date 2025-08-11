@@ -30,7 +30,7 @@ export default function CardEndOffer({ className }) {
           />
           <div className="w-full relative gap-5 flex justify-start items-center">
             <button className="bg-white text-primary w-max border border-transparent hover:border-white px-4 py-2 rounded-md font-semibold flex items-center gap-2 hover:bg-transparent hover:text-white transition duration-300">
-              <span>Testar Vetequus Agora</span>
+              <span>Testar Equinology Agora</span>
               <BsArrowRight />
             </button>
           </div>
