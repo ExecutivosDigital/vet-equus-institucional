@@ -30,14 +30,14 @@ export default function Hero() {
           </div>
           <div className="w-full mt-5 ">
             <HeroText
-              texts="A Clínica Equina na palma da sua mão, em Segundos"
+              texts="O app que entende o ritmo do veterinário de campo."
               className="text-white  leading-[0.95em] "
             />
           </div>
           <H1
             delay={0.2}
             className="mt-5 w-full lg:!w-[80%] justify-start !text-lg text-start"
-            title="Controle fichas, agendamentos, estoques, finanças e diagnósticos com inteligência artificial. Tudo o que o veterinário equino precisa, em um só lugar."
+            title="Gerencie seu haras com total controle. Do manejo dos animais à gestão financeira, tenha todas as ferramentas em um só lugar para simplificar sua rotina e otimizar resultados."
             textColor="white"
           />
           <div className="w-full relative gap-5 flex justify-start items-center">

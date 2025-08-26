@@ -23,17 +23,18 @@ export default function CardVariantBig() {
               />
             </div>
           </div>
-          <div className="w-full text-white">
+          <div className="w-full mb-4 text-white">
             <h1 className="text-4xl font-semibold">
-              Gerenciar pacientes e rotina equina ainda é um desafio
+              Reconhece algum desses problemas na sua rotina?
             </h1>
             <ul className="list-disc list-inside space-y-2">
-              <li>Planilhas confusas e anotações espalhadas</li>
-              <li>Dificuldade para acessar o histórico clínico do animal</li>
-              <li>Falta de controle financeiro real do consultório</li>
+              <li>Dificuldade para organizar laudos e relatórios.</li>
+              <li>Muito tempo perdido em burocracias.</li>
+              <li>Informações importantes se perdem no dia a dia.</li>
+              <li>Gestão financeira pouco prática.</li>
             </ul>
           </div>
-          <div className="w-full h-full top-[200px] relative flex justify-center items-center">
+          <div className="w-full h-full top-[210px] relative flex justify-center items-center">
             <Image
               className="w-[500px] h-auto object-cover "
               src="/static/phone-1.png"
@@ -62,19 +63,20 @@ export default function CardVariantBig() {
               />
             </div>
           </div>
-          <div className="w-full text-white">
+          <div className="w-full mb-4 text-white">
             <h1 className="text-4xl font-semibold">
-              Com a Equinology, você faz tudo com agilidade e clareza
+              A Equinology resolve isso para você.
             </h1>
             <ul className="list-disc list-inside space-y-2">
-              <li>Converse com uma IA treinada em medicina equina</li>
-              <li>Gere fichas clínicas completas com poucos cliques</li>
+              <li>Fale e a IA cria laudos e relatórios em segundos.</li>
+              <li>Históricos e dados organizados e acessíveis.</li>
               <li>
-                Controle financeiro detalhado por cliente, atendimento e período
+                Dados no celular: organize, decida e atue mais rápido e seguro,
+                mesmo no campo.
               </li>
             </ul>
           </div>
-          <div className="w-full h-full top-[200px] relative flex justify-center items-center">
+          <div className="w-full h-full top-[210px] relative flex justify-center items-center">
             <Image
               className="w-[500px] h-auto object-cover "
               src="/static/phone-2.png"
@@ -107,17 +109,17 @@ export default function CardVariantBig() {
           </div>
           <div className="w-full">
             <h1 className="text-4xl font-semibold text-[#494949]">
-              Para Quem Vive a Rotina do Campo e da Clínica Equina
+              Tecnologia exclusiva para veterinários de equinos.
             </h1>
             <div className="w-full">
               <ul className="mt-4 space-y-4">
-                <li>✅ Veterinários autônomos em campo ou clínicas</li>
-                <li>✅ Clínicas especializadas em equinos</li>
-                <li>✅ Escritórios de advocacia com foco público</li>
-                <li>✅ Haras e centros de reprodução</li>
+                <li>✅ Acesse e gerencie seus dados com segurança.</li>
+                <li>✅ Sua gestão do haras em um só lugar.</li>
+                <li>✅ Sua voz vira laudos. Seus dados, relatórios</li>
+                <li>✅ Seu aliado na rotina do campo.</li>
                 <li>
-                  ✅ Profissionais que buscam eficiência, organização e
-                  inteligência de dados
+                  ✅ Mais confiança, menos papel. Sua profissão é elevada,
+                  focada no que realmente importa.
                 </li>
               </ul>
             </div>
@@ -153,11 +155,11 @@ export default function CardVariantBig() {
           </div>
           <div className="w-full h-full flex flex-col justify-evenly text-white">
             <h1 className="text-4xl font-semibold">
-              Equinology única no mercado.
+              Equinology Tecnologia Exclusiva
             </h1>
             <p className="text-lg leading-loose">
-              Enquanto outros sistemas são genéricos, nós criamos um ecossistema
-              inteligente 100% voltado para equinos.
+              A Equinology nasceu para o campo - simples, rápido e inteligente,
+              como o dia a dia do veterinário de equinos exige.
             </p>
             <button className="bg-white text-primary w-max border border-transparent hover:border-white px-4 py-2 rounded-md font-semibold flex items-center gap-2 hover:bg-transparent hover:text-white transition duration-300">
               <span>Testar Equinology Agora</span>

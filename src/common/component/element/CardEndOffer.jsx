@@ -20,17 +20,17 @@ export default function CardEndOffer({ className }) {
         <div className="lg:w-[150%] gap-5 px-4 lg:px-10 py-20 flex flex-col justify-start items-start">
           <H1
             className="!items-start !w-full !justify-start text-2xl lg:!text-4xl  font-semibold text-start "
-            title="Teste agora no Lançamento Oficial e Tenha Benefícios"
+            title="Pronto para transformar sua rotina no campo?"
             textColor="white"
           />
           <H1
             className=" !justify-start !text-base text-start lg:w-[90%]"
-            title="Participe da fase beta do EquiVet AI e tenha acesso antecipado às ferramentas que vão transformar sua clínica. Ganhe tempo, controle total e destaque profissional, tudo antes da concorrência."
+            title="Com a Equinology, cada detalhe do seu trabalho ganha clareza, confiança e agilidade, tornando sua rotina mais eficiente e produtiva. Diga adeus à burocracia e olá a uma nova forma de atuar."
             textColor="white"
           />
           <div className="w-full relative gap-5 flex justify-start items-center">
             <button className="bg-white text-primary w-max border border-transparent hover:border-white px-4 py-2 rounded-md font-semibold flex items-center gap-2 hover:bg-transparent hover:text-white transition duration-300">
-              <span>Testar Equinology Agora</span>
+              <span>Quero experimentar agora</span>
               <BsArrowRight />
             </button>
           </div>
